@@ -1,0 +1,60 @@
+@media (min-width: 980px){
+    header{
+        font-size: var(--large);
+    }
+    #bar{
+        display: none;
+    }
+    nav ul{
+        position: relative;
+        top: 0;
+        left: 0;
+        flex-direction: row;
+        background: none;
+        width: inherit;
+        border: none;
+        backdrop-filter:none;
+        box-shadow: none;
+    }
+    .aboutSection .aboutText, .aboutSection .aboutSkills{
+        width: 45%;
+    }
+    .subContainer{
+        width: 50%;
+    }
+    .recWrapper{
+        width: 20em;
+    }
+   
+}
+@media (min-width: 768px) and (max-width:980px){
+    header{
+        font-size: var(--large);
+    }
+    #bar{
+        display: none;
+    }
+    nav ul{
+        position: relative;
+        top: 0;
+        left: 0;
+        flex-direction: row;
+        background: none;
+        width: inherit;
+        border: none;
+        backdrop-filter:none;
+        box-shadow: none;
+    }
+    nav ul a{
+        font-size: var(--medium);
+    }
+    .aboutSection .aboutText, .aboutSection .aboutSkills{
+        width: 45%;
+    }
+    .subContainer{
+        width: 50%;
+    }
+    .recWrapper{
+        width: 20em;
+    }
+}

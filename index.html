@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+
+    
+    <link rel="stylesheet" type="text/html" href="./user/Downloads/fontawesome-free-6.1.1-web/css/all.css">
+
+	<link rel="stylesheet" href="file:///C:/Users/User/Desktop/iTins/icons/fontawesome-free-6.1.1-web/css/all.css">
+
+	<link rel="stylesheet" href="/icons/fontawesome-free-6.1.1-web/css/all.css">
+
+
+    <script src="https://kit.fontawesome.com/2bbbf54a3f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="home" id="home">
+       <nav>
+           <label for="logo" class="logo">tob<span>s</span></label>
+           
+           <ul id="menu">
+               <li><a href="#home" onclick="navLink()">home</a></li>
+               <li><a href="#portfolio" onclick="navLink()">portfolio</a></li>
+               <li><a href="#recommendation" onclick="navLink()">reviews</a></li>
+               <li><a href="#contact" onclick="navLink()">contact</a></li>
+           </ul>
+
+          <i class="fas fa-bars bar" id="bar" onclick="showMenu()"></i>
+          <i class="fas fa-times cancel" id="cancel" onclick="hideMenu()"></i>
+       </nav>
+       <header>
+           <h2>hello</h2>
+           <p>i am</p>
+           <h1>ogunledun oluwatobi</h1>
+           <p>frontend web developer | email developer</p>
+       </header>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container" id="container">
+            <div class="aboutSection" id="aboutSection">
+                <div class="aboutText">
+                    <p>
+                        Self-taught individual with over 2 years of experience dedicated to 
+                        building high performance website with adept knowledge of object-Oriented 
+                        JavaScript, Backbone CSS, semantic HTML, adaptiveness to various screen 
+                        sizes and a believer in the mobile-first approach with modern designs 
+                        as well as strong ability to communicate and work in a team of highly 
+                        talented developers.
+                    </p>
+                    <button>download CV</button>
+                </div>
+                
+                <div class="aboutSkills">
+                    <div class="header">
+                        <h1>skills</h1>
+                    </div>
+                    <div class="theSkill">
+                        <div class="btn" id="btn">
+                            <button class="ps">programming skills</button>
+                            <button class="ss">soft skills</button>
+                            <button class="hs">hard skills</button>
+                        </div>
+                        <div class="skills">
+                            <div class="skl-itm pskill">html</div>
+                            <div class="skl-itm pskill">css</div>
+                            <div class="skl-itm pskill">javascript</div>
+                            <div class="skl-itm hskill">wordpress</div>
+                            <div class="skl-itm hskill">git & github</div>
+                            <div class="skl-itm hskill">responsiveness</div>
+                            <div class="skl-itm hskill">debugging</div>
+                            <div class="skl-itm sskill">Communication</div>
+                            <div class="skl-itm sskill">Critical Thinking</div>
+                            <div class="skl-itm sskill">Problem solving</div>
+                            <div class="skl-itm sskill">Organization Skills</div>
+                        </div>
+                    </div>
+
+                </div>
+                <button onclick="showCert()"> < There's more ></button>
+            </div>
+
+            <div class="certificate" id="certificate">
+                <div class="btn">
+                    <button onclick="showExp()">experience</button>
+                    <button onclick="showEdu()">education</button>
+                </div>
+                <div class="theContent exp active">
+                    <div class="wrap">
+                        <div class="items">
+                            <h3 class="title">March 2021</h3>
+                            <h2>Tunnech Solutions</h2>
+                            <p>
+                                Implemented website and landing page from concept and through deployment, 
+                                Standardized all output adaptive to different screensizes and Collaborated with 
+                                UI/UX designers & Technical writers to implement new feature development.
+                            </p>
+                            
+                            <ul>
+                                <label><strong>Key Achievements:</strong></label>
+                               
+                                <li>Created an online presence for the company</li>
+                            </ul>
+                        </div>
+
+                        <div class="items">
+                            <h3 class="title">April 2022</h3>
+                            <h2>Andicox Studios</h2>
+                            <p>
+                            	Implemented website from concept to deployment. Standardized all output using a new, responsive, mobile-first approach and strategy.
+                            	Planned, developed, and debugged website with complete accuracy
+
+                            </p>
+                            
+                            <ul>
+                                <label><strong>Key Achievements:</strong></label>
+                                <li>Increased mobile traffic by 50%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="theContent edu">
+                    <div class="wrap">
+                        <div class="items">
+                            <h3 class="title">Expected Year to graduate: 2022</h3>
+                            <h2>Mechanical Engineering (B. Engr)</h2>
+                            <h3>Olabisi Onabanjo University</h3>
+                            <p>
+                                
+                            </p>
+                            
+                        </div>
+
+                        <div class="items">
+                            <h3 class="title">March 2020</h3>
+                            <h2>FrontEnd Web Development</h2>
+                            <h3>Mecade Institute</h3>
+                            <p>
+                            	
+                            </p>
+                       
+                        </div>
+                    </div>
+                </div>
+                <button onclick="rmvCert()">< /return ></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="header">
+                <h1>
+                    recent projects i worked on
+                </h1>
+            </div>
+
+
+            <div class="portSection" id="portSection">
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="./img/gig07.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <a href="https://tobiogunledun.github.io/coxstudios/">view project</a>
+                        <p>Web Engineer: Tob<span>s</span></p>
+                        <div class="tech">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="./img/gig06.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <a href="">view project</a>
+                        <p>Web Engineer: Tob<span>s</span></p>
+                        <div class="tech">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="./img/gig02.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <a href="https://tobiogunledun.github.io/carterInteriors/">view project</a>
+                        <p>Web Engineer: Tob<span>s</span></p>
+                        <div class="tech">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="./img/gig01.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <a href="https://tobiogunledun.github.io/landing/">view project</a>
+                        <p>Web Engineer: Tob<span>s</span></p>
+                        <div class="tech">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="./img/gig05.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <a href="https://tobiogunledun.github.io/myTodoStyle/">view project</a>
+                        <p>Web Engineer: Tob<span>s</span></p>
+                        <div class="tech">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="img">
+                        <img src="./img/gig04.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <a href="">view project</a>
+                        <p>Web Engineer: Tob<span>s</span></p>
+                        <div class="tech">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recommendation" id="recommendation">
+        <div class="container">
+            <div class="header">
+                <h1>clients' say</h1>
+            </div>
+            <div class="subContainer" id="subContainer">
+                <div class="recSection" >
+                    <div class="recWrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veniam iure officia. 
+                            Voluptatem ipsa, iure laboriosam quas libero optio voluptas consequuntur, 
+                        </p>
+                        <h2>
+                            Anonymous 
+                        </h2>
+                    </div>
+                </div>
+                 <div class="btn">
+                    <i class="fas fa-chevron-left" id="prev"></i>
+                    <i class="fas fa-chevron-right" id="next"></i>
+                 </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contactSec" id="contactSec">
+                <div class="text">
+                    <h2>You can reach me through;</h2>
+                </div>
+                <div class="socials">
+                    <div class="icons">
+                        <div class="icon">
+                            <a href="https://instagram.com/tobiledsam"><i class="fab fa-instagram" style="color: #fc007e;"></i></a>
+                            
+                        </div>
+                        <div class="icon">
+                            <a href="mailto:oluwatobiledsam@gmail.com"><i class="fas fa-envelope" style="color: #ccb397;"></i></a>
+                             
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/Tob140"><i class="fab fa-twitter" style="color: #0acec4;"></i></a>
+                            
+                        </div> 
+                        <div class="icon">
+                            <a href="tel:+2348111087058"><i class="fas fa-phone" style="color: #072cff;"></i></a>
+                             
+                        </div>
+                        <div class="icon">
+                            <a href="https://wa.me/+2348111087058"><i class="fab fa-whatsapp" style="color: green;"></i></a>
+                            
+                        </div> 
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/ogunledun-oluwatobi-a98952202"><i class="fab fa-linkedin" style="color: #2374aa;"></i></a>
+                             
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="code.js"></script>
+</body>
+</html>
