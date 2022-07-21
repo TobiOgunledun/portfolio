@@ -1,4 +1,7 @@
 @media (min-width: 980px){
+    #home{
+        height: 40em;
+    }
     header{
         font-size: var(--large);
     }
@@ -28,6 +31,9 @@
    
 }
 @media (min-width: 768px) and (max-width:980px){
+    #home{
+        height: 40em;
+    }
     header{
         font-size: var(--large);
     }

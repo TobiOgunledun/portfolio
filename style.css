@@ -62,7 +62,7 @@ button:hover{
 #home{
     width: 100%;
     padding:0;
-    height: 36em;
+    height: 100vh;
     background: url("./img/bckg2.png");
     background-position: center;
     background-size: cover;
