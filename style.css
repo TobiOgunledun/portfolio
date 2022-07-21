@@ -89,7 +89,7 @@ nav ul{
     right: -15em;
     width: 12em;
     height: 10em;
-    background-color: rgb(173, 219, 227);
+    background-color: rgba(173, 219, 227, .3);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     list-style: none;
