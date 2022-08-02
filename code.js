@@ -16,7 +16,6 @@ function hideMenu(){
 function navLink(){
     navMenu.style.right = "";
     bar.style.display = "block";
-    cancel.style.display = "none"
 }
 btn.addEventListener("click", skills);
 function skills(e){

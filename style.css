@@ -427,8 +427,7 @@ header p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    text-align: center;
+    gap: 1.5em;
     position: relative;
     background: rgba(173, 219, 227, 0.5);
     backdrop-filter: blur(5px);
@@ -441,7 +440,13 @@ header p{
     transition: all 1s ease-in-out;
 }
 .recWrapper p{
-    font-size: 1em;
+    width: 95%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1em;
+}
+.recWrapper h3{
+    text-align: right;
 }
 .btn i{
     position:absolute;
